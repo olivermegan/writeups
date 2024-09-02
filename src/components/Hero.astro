@@ -13,7 +13,7 @@ const hero = siteConfig.hero;
             {hero.image?.src && (
                 <figure>
                     <img class="w-full" src={hero.image.src} loading="lazy" decoding="async" alt={hero.image.alt || ''} />
-                    {hero.image.caption && <figcaption class="mt-1.5 text-xs sm:text-sm">global compute nodes</figcaption>}
+                    {hero.image.caption && <figcaption class="mt-1.5 text-xs sm:text-sm">{hero.image.caption}</figcaption>}
                 </figure>
             )}
             {hero.text && <div class="max-w-none prose prose-dante sm:prose-lg" set:html={marked.parse(hero.text)} />}
