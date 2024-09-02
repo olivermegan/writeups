@@ -47,7 +47,7 @@ const siteConfig: SiteConfig = {
     },
     headerNavLinks: [
         {
-            text: 'Home',
+            text: 'writeups',
             href: '/'
         },
         {

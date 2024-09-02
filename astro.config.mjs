@@ -7,4 +7,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: "https://olivermegan.github.io",
   base: "/writeups",
+  integrations: [tailwind()],
 });
