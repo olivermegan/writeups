@@ -39,7 +39,7 @@ export type SiteConfig = {
 
 const siteConfig: SiteConfig = {
     title: 'Cyber Journey',
-    subtitle: 'Minimal Astro.js theme',
+    subtitle: 'Oliver Megan',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
@@ -47,21 +47,21 @@ const siteConfig: SiteConfig = {
     },
     headerNavLinks: [
         {
-            text: 'writeups',
+            text: 'Home',
             href: '/'
         },
         {
-            text: 'Projects',
-            href: '/projects'
+            text: 'Writeups',
+            href: '/writeups'
         },
-        {
-            text: 'Blog',
-            href: '/blog'
-        },
-        {
-            text: 'Tags',
-            href: '/tags'
-        }
+        //{
+            //text: 'Blog',
+            //href: '/blog'
+        //},
+        // {
+        //     text: 'Tags',
+        //     href: '/tags'
+        // }
     ],
     footerNavLinks: [
         {
@@ -76,10 +76,10 @@ const siteConfig: SiteConfig = {
             text: 'Terms',
             href: '/terms'
         },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
+        //{
+            //text: 'Download theme',
+            //href: 'https://github.com/JustGoodUI/dante-astro-theme'
+        //}
     ],
     socialLinks: [
         {
