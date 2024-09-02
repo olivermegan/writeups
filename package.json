@@ -10,20 +10,20 @@
     "astro": "astro"
   },
   "dependencies": {
-     "astro": "^4.15.1",
-     "@astrojs/mdx": "^3.1.5",
-     "@astrojs/rss": "^4.0.7",
-     "@astrojs/sitemap": "^3.1.6",
-     "@astrojs/tailwind": "^5.1.0",
-     "@astrojs/check": "^0.9.3",
-     "typescript": "^5.5.4",
-     "marked": "^14.1.0",
-     "tailwindcss": "^3.4.10"
-
+    "@astrojs/check": "^0.9.3",
+    "@astrojs/mdx": "^3.1.5",
+    "@astrojs/rss": "^4.0.7",
+    "@astrojs/sitemap": "^3.1.6",
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^4.15.1",
+    "dependencies": "^0.0.1",
+    "marked": "^14.1.0",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.4"
   },
-      "devDependencies": {
-        "@tailwindcss/typography": "^0.5.15",
-        "prettier": "^3.3.3",
-        "prettier-plugin-tailwindcss": "^0.6.6"
-    }
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6"
+  }
 }
