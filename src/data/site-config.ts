@@ -52,7 +52,7 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Writeups',
-            href: '/writeups/os'
+            href: '/writeups/machines'
         },
         //{
             //text: 'Blog',
