@@ -6,6 +6,6 @@ import tailwind from '@astrojs/tailwind';
 // https://astro.build/config
 export default defineConfig({
     site: 'https://olivermegan.github.io/writeups',
-    base: '/home',
+    base: '/writeups',
     integrations: [tailwind(), mdx()]
 });
