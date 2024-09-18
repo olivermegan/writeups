@@ -81,20 +81,20 @@ const siteConfig: SiteConfig = {
             //href: 'https://github.com/JustGoodUI/dante-astro-theme'
         //}
     ],
-    socialLinks: [
-        {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
-        {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
-        }
-    ],
+    // socialLinks: [
+    //     {
+    //         text: 'Dribbble',
+    //         href: 'https://dribbble.com/'
+    //     },
+    //     {
+    //         text: 'Instagram',
+    //         href: 'https://instagram.com/'
+    //     },
+    //     {
+    //         text: 'X/Twitter',
+    //         href: 'https://twitter.com/'
+    //     }
+    // ],
     hero: {
         title: 'Hi There & Welcome to My Cyber Journey!',
         text: "I'm **Oli**, a Cyber Security and Linux enthusiast, dedicated to the realms of networking, troubleshooting and penetration testing. My procedural etiquette involves utilising intuition alongside mounting my own research to push boundaries in unfastening as much of the cyberspace universe as I can muster. I have a predisposition towards efficient software and excellent hardware. Please join me on my journey to becoming a cyber professional on <a href='https://olivermegan.github.io/writeups/'>GitHub</a>.",
