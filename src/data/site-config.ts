@@ -63,6 +63,12 @@ const siteConfig: SiteConfig = {
              href: '/tags'
          }
     ],
+    // machineNavLinks: [
+    //     {
+    //         text: 'Windows Machine 1',
+    //         href: '/writeups/machines/windows/windows-machine-1'
+    //     }
+    // ],
     footerNavLinks: [
         {
             text: 'About',
