@@ -1,15 +1,5 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-
-const windowsMachines = [
-    { name: 'Windows Machine 1', slug: 'windows-machine-1' },
-    { name: 'Windows Machine 2', slug: 'windows-machine-2' }
-];
-
-const linuxMachines = [
-    { name: 'Linux Machine 1', slug: 'linux-machine-1' },
-    { name: 'Linux Machine 2', slug: 'linux-machine-2' }
-];
 ---
 
 <BaseLayout
@@ -19,29 +9,17 @@ const linuxMachines = [
 >
     <h1 class="mb-12 text-2xl font-serif italic sm:mb-16 sm:text-4xl">All Machines</h1>
 
-    <h2 class="text-xl font-serif">Windows Machines</h2>
-    <ul>
-        {
-            windowsMachines.map((machine) => (
-                <li class="mb-10 flex justify-between items-start gap-8 group sm:mb-12">
-                    <a href={`/machines/windows/${machine.slug}`} class="group-hover:underline group-hover:decoration-dashed">
-                        {machine.name}
-                    </a>
-                </li>
-            ))
-        }
-    </ul>
+    <div class="flex flex-wrap gap-12">
+        <a class="hover:pointer" href="/writeups/machines/windows">
+            <div class="h-64 w-64 bg-gray-200 rounded-lg">
+                <h2 class="text-xl font-serif text-gray-900">Windows Machines</h2>
+            </div>
+        </a>
 
-    <h2 class="text-xl font-serif mt-12">Linux Machines</h2>
-    <ul>
-        {
-            linuxMachines.map((machine) => (
-                <li class="mb-10 flex justify-between items-start gap-8 group sm:mb-12">
-                    <a href={`/machines/linux/${machine.slug}`} class="group-hover:underline group-hover:decoration-dashed">
-                        {machine.name}
-                    </a>
-                </li>
-            ))
-        }
-    </ul>
+        <a class="hover:pointer" href="/writeups/machines/linux">
+            <div class="h-64 w-64 bg-gray-200 rounded-lg">
+                <h2 class="text-xl font-serif text-gray-900">Linux Machines</h2>
+            </div>
+        </a>
+    </div>
 </BaseLayout>

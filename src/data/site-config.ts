@@ -54,53 +54,13 @@ const siteConfig: SiteConfig = {
             text: 'Writeups',
             href: '/writeups/machines'
         },
-        //{
-            //text: 'Blog',
-            //href: '/blog'
-        //},
-         {
-             text: 'Tags',
-             href: '/tags'
-         }
+
+ 
     ],
-    // machineNavLinks: [
-    //     {
-    //         text: 'Windows Machine 1',
-    //         href: '/writeups/machines/windows/windows-machine-1'
-    //     }
-    // ],
+
     footerNavLinks: [
-        {
-            text: 'About',
-            href: '/about'
-        },
-        {
-            text: 'Contact',
-            href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        //{
-            //text: 'Download theme',
-            //href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        //}
     ],
-    // socialLinks: [
-    //     {
-    //         text: 'Dribbble',
-    //         href: 'https://dribbble.com/'
-    //     },
-    //     {
-    //         text: 'Instagram',
-    //         href: 'https://instagram.com/'
-    //     },
-    //     {
-    //         text: 'X/Twitter',
-    //         href: 'https://twitter.com/'
-    //     }
-    // ],
+
     hero: {
         title: 'Hi There & Welcome to My Cyber Journey!',
         text: "I'm **Oli**, a Cyber Security and Linux enthusiast, dedicated to the realms of networking, troubleshooting and penetration testing. My procedural etiquette involves utilising intuition alongside mounting my own research to push boundaries in unfastening as much of the cyberspace universe as I can muster. I have a predisposition towards efficient software and excellent hardware. Please join me on my journey to becoming a cyber professional on <a href='https://olivermegan.github.io/writeups/'>GitHub</a>.",
@@ -109,20 +69,8 @@ const siteConfig: SiteConfig = {
             alt: 'global system of nodes linked together by cyberspace',
             caption: 'global compute nodes'
         },
-        actions: [
-            {
-                text: 'Get in Touch',
-                href: '/contact'
-            }
-        ]
+
     },
-    subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
-    },
-    postsPerPage: 8,
-    projectsPerPage: 8
 };
 
 export default siteConfig;
