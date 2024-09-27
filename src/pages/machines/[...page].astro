@@ -5,21 +5,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Pagination from '../../components/Pagination.astro';
 import PostPreview from '../../components/PostPreview.astro';
 import Subscribe from '../../components/Subscribe.astro';
-import siteConfig from '../../data/site-config';
 import { sortItemsByDateDesc, getAllTags, getPostsByTag } from '../../utils/data-utils';
-
-export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
-    const posts = (await getCollection('blog')).sort(sortItemsByDateDesc);
-    const tags = getAllTags(posts);
-
-    return tags.flatMap((tag) => {
-        const filteredPosts = getPostsByTag(posts, tag.slug);
-        return paginate(filteredPosts, {
-            params: { slug: tag.slug },
-            pageSize: siteConfig.postsPerPage || 4
-        });
-    });
-}
 
 type Props = { page: Page<CollectionEntry<'blog'>> };
 

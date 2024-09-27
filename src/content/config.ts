@@ -24,7 +24,7 @@ const blog = defineCollection({
     })
 });
 
-const pages = defineCollection({
+const pagesCollection = defineCollection({
     schema: z.object({
         title: z.string(),
         seo: seoSchema.optional()
@@ -41,4 +41,4 @@ const projects = defineCollection({
     })
 });
 
-export const collections = { blog, pages, projects };
+export const collections = { blog, pagesCollection, projects };
