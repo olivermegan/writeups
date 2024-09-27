@@ -1,16 +1,6 @@
 ---
-import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import Button from '../../../components/Button.astro';
-import Hero from '../../../components/Hero.astro';
-import PostPreview from '../../../components/PostPreview.astro';
-import ProjectPreview from '../../../components/ProjectPreview.astro';
-import siteConfig from '../../../data/site-config';
-import { sortItemsByDateDesc } from '../../../utils/data-utils';
 import { Content as DentistContent } from '../../../content/pages/dentist.md';
-import { getEntry, render } from 'astro:content';
-
-// const { Content } = await render();
 ---
 
 <BaseLayout title={`Windows`} description={`List of Windows machines`} image={{ src: '/dante-preview.jpg', alt: 'The preview of the site' }} showHeader={false}>
