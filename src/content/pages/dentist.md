@@ -1,11 +1,18 @@
-<!-- # Machine 1 - Writeup
+---
+title: 'Dentist Machine Writeup' # This matches the required 'title' field in the schema
+date: '2024-09-16' # Optional: date for the writeup
+description: 'This is a detailed writeup of the Dentist machine from Hack the Box.' # Optional: description for the writeup
+tags: ['Hack the Box', 'Dentist', 'Machines'] # Optional: tags for organizing your writeup
+---
 
-## Overview
+# Dentist Machine Writeup
 
-This machine was challenging, with several stages involving SQL injection and privilege escalation.
+This writeup covers the steps taken to exploit the Dentist machine from Hack the Box.
 
-## Steps
+## Introduction
 
-1. **Enumeration**: Nmap scan reveals open ports on...
-2. **Exploitation**: We used SQL injection to...
-3. **Post-Exploitation**: After gaining shell access, we... -->
+...
+
+## Exploit Steps
+
+...
